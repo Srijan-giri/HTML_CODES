@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/Photos/4518857_python_icon.png">
+    <title>Html Photos</title>
+    <style>
+      body {
+          background-image: url("https://www.w3schools.com/html/img_girl.jpg");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+         
+          /*background-size:cover;*/
+          background-size: 100% 100%;
+      }
+
+   
+    </style>
+  </head>
+
+  <body>
+    <h2>Background Image</h2>
+
+    <p>
+      You can specify background images for any visible HTML element. In this
+      example, the background image is specified for a div element. By default,
+      the background-image will repeat itself in the direction(s) where it is
+      smaller than the element where it is specified.Try resizing the browser
+      window to see how the background image behaves.
+    </p>
+
+    <!-- picture tag -->
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://www.w3schools.com/html/img_food.jpg">
+        <source media="(min-width: 465px)" srcset="https://www.w3schools.com/html/img_car.jpg">
+        <img src="/Photos/pokemon.jpg" style="width:auto">
+      </picture>
+  </body>
+</html>
